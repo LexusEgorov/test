@@ -5,6 +5,12 @@ const baltimor = () => {
 };
 
 const faggot = () => {
+  const fag = document.querySelector(".fag");
+
+  fag.addEventListener('click', () => {
+    fag.textContent = "Ты любопытный пидор";
+  })
+  
   const b = document.querySelector(".b-prize");
   b.classList.remove('hide');
   b.classList.add('won');
